@@ -12,11 +12,12 @@ import {
   View
 } from 'react-native';
 import Home from './view/home'
+import Head from './view/head'
 export default class testReactNative extends Component {
   render() {
     return (
-      <Home></Home>
-    );
+       <Head></Head>
+    )
   }
 }
 
