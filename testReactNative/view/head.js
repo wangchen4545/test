@@ -13,12 +13,12 @@ export default class Head extends Component {
 const style=StyleSheet.create({
     title:{
         paddingTop:18,
-        width:100, 
-        height:100,
-        backgroundColor:'red'
+        width:"100%", 
+        height:27,
+        backgroundColor:'red',
+    
     },
     title_text:{
         textAlign:'center',
     }
-    
 })
