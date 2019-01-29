@@ -18,6 +18,8 @@ export default class Head extends Component {
        )
     }
 }
+//height 的这个跟css不一样 自带box-sizing:border-box;
+
 const style=StyleSheet.create({
     title:{
         paddingTop:18,

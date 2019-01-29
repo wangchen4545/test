@@ -1,20 +1,24 @@
 <template>
     <div onclick='changeText'>
-        ddd
+        {{titleText}}
     </div>
 </template>
 <script>
 // import '@/sass/home.scss'
 export default {
-    name:"title",
+    name:"Title",
+    props: {
+        titleText:String
+    },
     data(){
         return {
-            data:"1"
+            // data:"1",
+            // titleText:{}
         }
     },
     methods: {
         changeText(){
-            console.log(1111)
+            // console.log(1111)
         }
     },
 }
