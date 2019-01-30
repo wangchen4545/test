@@ -1,6 +1,7 @@
 <template>
-    <div onclick='changeText'>
+    <div @click='changeText2'>
         {{titleText}}
+        <p>{{title2}}222</p>
     </div>
 </template>
 <script>
@@ -14,11 +15,18 @@ export default {
         return {
             // data:"1",
             // titleText:{}
+            title2:this.titleText
         }
     },
     methods: {
-        changeText(){
+        changeText2(){
             // console.log(1111)
+            this.title2++;
+            // console.log(this)
+            this.$toast({
+                text:"ilove",
+                isshow:true
+            })
         }
     },
 }
