@@ -6,7 +6,7 @@
 <script>
 export default {
     created(){
-        console.log(111)
+        // console.log(111)
     },
     data(){
         return {
